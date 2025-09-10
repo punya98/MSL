@@ -330,7 +330,7 @@ function downloadPDF(){
   doc.text(`Grand Total: INR ${grand.toLocaleString('en-IN',{maximumFractionDigits:2})}`, 14, y+14);
   doc.setFont(undefined,'normal');
   doc.setFontSize(9);
-  doc.text('Notes: Rates are EX Delhi; Freight extra as per actual. GST @ 18% extra. Price list at dispatch applies. 1 pipe = 6 metres. Discount 48%.', 14, y+22);
+  doc.text('Notes: Rates are EX Delhi; Freight extra as per actual. Pipes conform to ASTM A 106 Gr.B/ ASTM A53 Gr. B and are IBR approved. GST @ 18% extra. Price list at dispatch applies. 1 pipe = 6 metres. Discount 48%.', 14, y+22);
 
   doc.save('MSL-Seamless-Pipes-Quotation.pdf');
 }
